@@ -1,0 +1,15 @@
+{
+  "name": "Back to old.reddit",
+  "version": "1.0",
+  "description": "Redirects new style reddit to old.reddit",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://reddit.com/*",
+    "*://www.reddit.com/*"
+  ]
+}
